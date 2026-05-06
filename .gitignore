@@ -1,0 +1,39 @@
+🐍 PYTHON & FASTAPI
+# ==========================================
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (¡Imprescindible!)
+.venv/
+venv/
+ENV/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# ==========================================
+# 🔑 SEGURIDAD Y CONFIGURACIÓN (¡CRÍTICO!)
+# ==========================================
+# Archivos que contienen contraseñas o tokens (nunca los subas)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# ==========================================
+# 🗄️ BASES DE DATOS
+# ==========================================
+# SQLite (base de datos por defecto para pruebas locales)
+*.db
+*.sqlite3
+*.sqlite
+
+# Logs de bases de datos
+*.log
